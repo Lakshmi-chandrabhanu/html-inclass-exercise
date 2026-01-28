@@ -60,7 +60,7 @@ Replace sample text with your own on all three pages:
 - Place at least **one new image** into the `images/` directory.
 - Use a proper `<img>` element:
   ```html
-  <img href='images/myphoto.jpg' alt='Alt text  here'/>
+  <img src='images/myphoto.jpg' alt='Alt text  here'/>
   ```
 - Every image **must** have a meaningful `alt` attribute.
 
@@ -80,6 +80,48 @@ Add at least **one new HTML structure**, such as:
 - A figure with caption  
 
 Then update the `<nav>` on every page to include a link to your new file.
+
+---
+
+### **5. OPTIONAL: Add Page Styling Using a `<style>` Section**
+To demonstrate basic CSS, add an internal `<style>` block inside the `<head>` of **each** page (or link them to one shared style block). Apply styles to the semantic elements already in your template.
+
+#### **Instructions**
+1. Inside the `<head>` of `index.html`, add:
+
+```html
+<style>
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 1rem;
+  }
+  nav a {
+    color: #ffcc00;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  main {
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+  }
+  footer {
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+</style>
+```
+
+2. Modify colors, fonts, spacing, or borders to suit your design.
+3. Copy the same `<style>` block into the `<head>` of `about.html` and `gallery.html`, or extract it later into an external CSS file (optional stretch goal).
+4. Confirm that each semantic region on the page changes visually.
+
+#### **What This Teaches You**
+- How to target elements by name in CSS.
+- How semantic tags improve both code structure and styling clarity.
+- The relationship between HTML layout and CSS appearance.
 
 ---
 
