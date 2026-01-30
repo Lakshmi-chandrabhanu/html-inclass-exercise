@@ -1,29 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+  /* Global */
+  body {
+    margin: 0;
+    background: #fafafa;
+    color: #2b2b2b;
+  }
+
+  /* Header */
+  header {
+    background: linear-gradient(135deg, #003366, #00509e);
+    color: white;
+    padding: 1.5rem 2rem;
+    font-family: "Playfair Display", serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+  }
+
+  /* Navigation */
+  nav {
+    margin-top: 0.5rem;
+  }
+
+  nav a {
+    color: #ffcc00;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 2px solid transparent;
+  }
+
+  nav a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #ffcc00;
+  }
+
+  /* Main content */
+  main {
+    padding: 2rem;
+    font-family: "Arial", sans-serif;
+    line-height: 1.7;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  main h2 {
+    font-family: "Playfair Display", serif;
+    color: #003366;
+    margin-bottom: 0.5rem;
+  }
+
+  main p {
+    margin-bottom: 1.2rem;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #555;
+    border-top: 1px solid #ddd;
+  }
+</style>
   <meta charset="utf-8" />
   <title>My Website – About</title>
 </head>
 <body>
   <header>
-    <h1>About Me</h1>
+    <h1>Destinations Information</h1>
     <nav>
       <a href="index.html">Home</a> |
       <a href="about.html">About</a> |
       <a href="gallery.html">Gallery</a>
+      <a href="recommendations.html">Recommendations</a>
     </nav>
   </header>
   <main>
     <section>
-      <h2>Quick Facts</h2>
+      <h2>Destinations Chosen:</h2>
       <ul>
-        <li>Program: MS in Health Informatics</li>
-        <li>Interest: Application Development</li>
-        <li>Goal: Build useful clinical tools</li>
+        <li>Aruba</li>
+        <li>Spain</li>
+        <li>Singapore</li>
       </ul>
     </section>
     <section>
-      <h2>Contact</h2>
+      <h2>Interested in traveling? Contact us!</h2>
       <form action="#" method="post">
         <label for="name">Name:</label>
         <input id="name" name="name" type="text" />

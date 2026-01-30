@@ -1,6 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+  /* Global */
+  body {
+    margin: 0;
+    background: #fafafa;
+    color: #2b2b2b;
+  }
+
+  /* Header */
+  header {
+    background: linear-gradient(135deg, #003366, #00509e);
+    color: white;
+    padding: 1.5rem 2rem;
+    font-family: "Playfair Display", serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+  }
+
+  /* Navigation */
+  nav {
+    margin-top: 0.5rem;
+  }
+
+  nav a {
+    color: #ffcc00;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 2px solid transparent;
+  }
+
+  nav a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #ffcc00;
+  }
+
+  /* Main content */
+  main {
+    padding: 2rem;
+    font-family: "Arial", sans-serif;
+    line-height: 1.7;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  main h2 {
+    font-family: "Playfair Display", serif;
+    color: #003366;
+    margin-bottom: 0.5rem;
+  }
+
+  main p {
+    margin-bottom: 1.2rem;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #555;
+    border-top: 1px solid #ddd;
+  }
+</style>
   <meta charset="utf-8" />
   <title>My Website – Gallery</title>
 </head>
@@ -11,20 +82,23 @@
       <a href="index.html">Home</a> |
       <a href="about.html">About</a> |
       <a href="gallery.html">Gallery</a>
+       <a href="recommendations.html">Recommendations</a>
+    </nav>
     </nav>
   </header>
   <main>
     <figure>
-      <img src="images/sample-1.jpg" alt="Abstract tiles in blue" width="360" />
-      <figcaption>Sample image 1 (replace with your own)</figcaption>
+      <img src="https://internationalliving.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fwv75stsetqy3%2F4qhRyeosau9Rsw1PKKv6pn%2F6c804cb5d6137d58581f66be85def193%2FAruba.jpg%3Fq%3D60%26fit%3Dfill%26fm%3Dwebp&w=3840&q=60" alt="Aruba" width="360px"/>
+      <figcaption>One happy island, I am living my dream</figcaption>
     </figure>
     <figure>
-      <img src="images/sample-2.jpg" alt="Abstract tiles in green" width="360" />
-      <figcaption>Sample image 2 (replace with your own)</figcaption>
+      <img src="https://www.royalcaribbean.com/media-assets/pmc/content/dam/shore-x/tarragona-tgn/g312-tarragona-with-barcelona-highlights-tour-ends-at-barcelona-airport/exterior-of-la-sagrada-familia.jpg?w=1440" alt="Spain" width="360" />
+      <figcaption>Living my best vida in Espana</figcaption>
+    </figure>
+      <img src="https://goway-cms-files.s3.ca-central-1.amazonaws.com/production/wordpress_images/Supertree-Grove-Gardens-by-the-Bay-Singapore_290033528.jpg" alt="Singapore" width="360" />
+      <figcaption>Where tradition meets tomorrow</figcaption>
     </figure>
   </main>
   <footer>
-    
-  </footer>
-</body>
+     
 </html>
